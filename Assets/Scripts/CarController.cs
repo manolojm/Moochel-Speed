@@ -34,25 +34,19 @@ public class CarController : MonoBehaviour
     public float maxSteerAngle = 30;
     public float motorForce = 50;
 
-
     public int frenar = 500;
     public int frenarPedal = 50000;
     public bool pedalFreno;
 
-
     public int velocidadMaxima = 120;
-
     private Rigidbody coche;
 
     public ParticleSystem efectoRuedaR;
     public ParticleSystem efectoRuedaL;
 
-
     //public Joystick joyStick;
 
-
     public float speed;
-
     public bool cuatroPorCuatro;
     public Image cuatroPorCuatroImage;
 
